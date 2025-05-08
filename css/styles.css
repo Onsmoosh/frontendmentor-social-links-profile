@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt_wght.ttf)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    max-inline-size: 100%;
+}
+
+body {
+    font-family: Inter , sans-serif;
+    font-optical-sizing: auto;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.container {
+    max-block-size: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card a {
+    display: block;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
